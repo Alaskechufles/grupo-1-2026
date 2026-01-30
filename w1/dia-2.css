@@ -1,0 +1,18 @@
+* {
+}
+
+h1 {
+    
+}
+
+.rojo {
+    color: red;
+    background-color: blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#azul {
+    color: blue;
+    background-color: rgb(17, 255, 0);
+
+}

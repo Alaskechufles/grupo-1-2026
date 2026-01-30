@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./p-dia-3.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>To Do</h1>
+    <form action="#" method="POST">
+        <label >Título:
+            <input  name="titulo" type="text">
+        </label>
+        <br>
+        <label for="descripcion"> Descripción:
+            <input id="descripcion" name="descripcion" type="text">
+        </label>
+        <br>
+        <label for="categoria">Categoría:
+            <select name="categoria" id="categoria"> 
+                <option value="casa">Casa</option>
+                <option value="trabajo">Trabajo</option>
+                <option value="estudios">Estudios</option>
+            </select>
+        </label>
+        <br>
+        <button type="submit">Crear</button>
+    </form>
+    <br>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sacar la basura</td>
+                <td>Retirar la basura de casa</td>
+                <td>Casa</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Completar Formularios</td>
+                <td>Ayudar con el llenado de los formularios de RRHH</td>
+                <td>Trabajo</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Realizar mis Asignaciones</td>
+                <td>Completar la práctica 1 y 2 </td>
+                <td>Estudios</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

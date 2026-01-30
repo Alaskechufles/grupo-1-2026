@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;/* por defecto es row */
+    /*
+     row -> Horizontal 
+    column -> Vertical
+    */
+    height: 350px;
+    background-color: red;
+    justify-content: center;/* Orden para el Eje Principal */
+    align-items: center;/* Orden para el Eje cruzado  */
+    flex-wrap: wrap;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item {
+    border: solid black 1px;
+    width:  150px;
+    height: 120px;
+    background-color: blue;
+}
